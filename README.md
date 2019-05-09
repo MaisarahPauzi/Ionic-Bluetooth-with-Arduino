@@ -1,5 +1,5 @@
 # Ionic-Bluetooth-with-Arduino
-An Ionic App that connect with Arduino (Maker UNO board) via Bluetooth Serial
+An Ionic 3 App that connect with Arduino (Maker UNO board) via Bluetooth Serial
 ##
 Add bluetooth serial package via NPM
 ##
