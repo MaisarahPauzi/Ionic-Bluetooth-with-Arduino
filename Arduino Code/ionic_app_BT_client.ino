@@ -4,12 +4,12 @@ String value;
 
 
 void setup() {
-  for (int i=8; i<14; i++)          // initialize LED
+  for (int i=8; i<14; i++)          
   {               
     pinMode(i, OUTPUT);             
   }  
 
-  Serial.begin(9600);       // start serial communication at 9600bps
+  Serial.begin(9600);       
   HC06Serial.begin(9600);
 }
 
@@ -21,15 +21,15 @@ void loop() {
     Serial.println(value);
     
     if(value == "OFF"){
-      for (int j=8; j<14; j++)        // looping
+      for (int j=8; j<14; j++)        
       {               
-        digitalWrite(j, LOW);        // turn on LED
+        digitalWrite(j, LOW);        
       }  
     }
     else if(value =="ON"){
-      for (int k=8; k<14; k++)        // looping
+      for (int k=8; k<14; k++)        
       {               
-        digitalWrite(k, HIGH);         // turn off LED
+        digitalWrite(k, HIGH);         
       } 
     }
     
